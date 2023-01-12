@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "first_section"
+version = "0.1.0"
+description = ""
+authors = ["Arthur Nunes <arthurnunesc@proton.me>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.11.1"
+lxml = "^4.9.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
